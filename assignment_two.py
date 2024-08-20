@@ -48,8 +48,6 @@ def randGame():
 
 # Question number four
 def findArmstrong():
-    # for i in range(0, 999):
-    # num = 371
     for num in range(0, 999):
         sum = 0
         for i in str(num):

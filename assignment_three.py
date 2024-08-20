@@ -32,9 +32,9 @@ def elevator():
     floor = 0
     askFloor = str(input(("where do you want to go: "))).lower()
     for i in askFloor:
-        if i == 'v':
+        if i == '^':
             floor += 1
-        elif i == '^':
+        elif i == 'v':
             if floor == 0:
                 floor = 0
             else:
@@ -60,4 +60,4 @@ def largestDivisor():
     print("The largest number of divisors is " + str(biggestDivisor))
     print("It has " + str(numOfDivisor) + " divisors.")
 
-# largestDivisor()
+largestDivisor()
